@@ -1,13 +1,19 @@
-# Cricket board management System
+# Cricket-Board-Management-System
+To create and update a Player's Record
 
-To create and modify the Players Record
+I. Indroduction: 
 
+* The main feature of this project is to know the usage of file handeling and structure concept.
 
-## Folder Structure
-Folder             | Description
--------------------| -----------------------------------------
-`1_Requirements`   | Documents detailing requirements and research
-`2_Design`         | Documents specifying design details
-`3_Implementation` | All code and documentation
-`4_Test_plan`      | Documents with test plans and procedures
+II. Features:
 
+Using File handling and Structure concepts here created a simple cricket score board for to store , delete , search and modify the plyaers data.
+
+III. Outcome:
+ 
+ The outcome of this project is we can able to create and update a simple player board.
+ 
+ 
+Software : The platform used to run this project is visual studio code(version 1.57).
+
+Operating System : Windows 10
