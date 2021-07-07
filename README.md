@@ -1,13 +1,13 @@
-# Requirements
-## Introduction
- * This project is a cricket Game score board Management, created using C language, designed and employed for a simple console application.
- * There are many features such as create,search,modify,delete the Player's record.
- 
-## Defining Our System
-The project enables the user to store players details such as Name, Player ID, Run.
-And also user can add new player and modify the  players details like rename the players name ,player Id, run. Then user can also search to find the wanted player details and another future is user can also delete the player's record.
+# Cricket board management System
 
-This quiz game has some built in features like,
+To create and modify the Players Record
 
-* Displaying the All Players score enter by the user. 
-* Modify the score to a zero and start over again.
+
+## Folder Structure
+Folder             | Description
+-------------------| -----------------------------------------
+`1_Requirements`   | Documents detailing requirements and research
+`2_Design`         | Documents specifying design details
+`3_Implementation` | All code and documentation
+`4_Test_plan`      | Documents with test plans and procedures
+
