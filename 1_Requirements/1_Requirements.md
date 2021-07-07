@@ -19,7 +19,7 @@ This quiz game has some built in features like,
 * Modify the score to a zero and start over again.
 
 
-##Outcome:
+## Outcome:
  
  * The outcome of this project is we can able to create and update a simple player board.
  
