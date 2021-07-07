@@ -24,7 +24,7 @@ This quiz game has some built in features like,
  * The outcome of this project is we can able to create and update a simple player board.
  
  
-##Software : The platform used to run this project is visual studio code(version 1.57).
+## Software : The platform used to run this project is visual studio code(version 1.57).
 
-##Operating System : Windows 10
+## Operating System : Windows 10
 
