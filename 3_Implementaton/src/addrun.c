@@ -52,6 +52,6 @@ printf("\nEnter any key to continue.\n");
  remove("Player_record.txt");
 rename("temp.txt","Player_record.txt");
   remove("temp.txt");
-getch();
+//getch();
 
 }

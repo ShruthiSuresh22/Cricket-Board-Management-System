@@ -8,7 +8,7 @@ make.exe: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul 08 13:24:41 2021
+# Make data base, printed on Thu Jul 08 16:04:51 2021
 
 # Variables
 
@@ -21,7 +21,7 @@ GNUMAKEFLAGS :=
 # default
 .SHELLFLAGS := -c
 # makefile (from 'Makefile', line 1)
-SRC = mycode.c addrun.c search.c modify.c 
+SRC = mycode.c src/addrun.c src/search.c src/modify.c 
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -139,7 +139,7 @@ PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\Wi
 # default
 MAKE_COMMAND := make.exe
 # makefile (from 'Makefile', line 2)
-INC = fun.h 
+INC = inc
 # default
 .VARIABLES := 
 # automatic
@@ -224,6 +224,12 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-TOLSUP5U
 # Files
 
 # Not a target:
+src/modify.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 all:
 #  Command line target.
 #  Implicit rule search has been done.
@@ -231,23 +237,11 @@ all:
 #  File has not been updated.
 
 # Not a target:
-search.c:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2021-07-08 13:24:19
+#  Last modified 2021-07-08 15:10:42
 #  File has been updated.
 #  Successfully updated.
-
-# Not a target:
-addrun.c:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
 
 # Not a target:
 .DEFAULT:
@@ -263,26 +257,32 @@ run: target
 	./output.exe
 
 # Not a target:
-modify.c:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
 mycode.c:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-target: mycode.c addrun.c search.c modify.c fun.h
+target: mycode.c src/addrun.c src/search.c src/modify.c inc
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 5):
-	gcc $(SRC) -o output.exe
+	gcc $(SRC) -I$(INC) -o output.exe
 
 # Not a target:
-fun.h:
+src/addrun.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+inc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/search.c:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -295,12 +295,12 @@ fun.h:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 20 / storage = 165 B / avg = 8 B
-# current buf: size = 8162 B / used = 165 B / count = 20 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 20 / storage = 175 B / avg = 8 B
+# current buf: size = 8162 B / used = 175 B / count = 20 / avg = 8 B
 
 # strcache performance: lookups = 27 / hit rate = 25%
 # hash-table stats:
 # Load=20/8192=0%, Rehash=0, Collisions=1/27=4%
-# Finished Make data base on Thu Jul 08 13:24:41 2021
+# Finished Make data base on Thu Jul 08 16:04:51 2021
 
  
