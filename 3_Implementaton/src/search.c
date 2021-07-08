@@ -10,7 +10,7 @@ int f,e_ID;
 
 struct record
 {
-int ID,avg,run,f;
+int ID,avg,run;
 char name[20];
 }r;
 

@@ -9,11 +9,11 @@ int e_ID;
 
 struct record
 {
-int ID,run,total;
+int ID,run;
 
 }r;
 
-int add,flag=0;
+int add, flag=0;
 printf("\nEnter Player's ID: ");
 scanf("%d",&e_ID);
 FILE *fp,*fs;
