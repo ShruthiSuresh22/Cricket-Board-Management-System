@@ -18,6 +18,26 @@ This quiz game has some built in features like,
 * Displaying the All Players score enter by the user. 
 * Modify the score to a zero and start over again.
 
+## SWOT ANALYSIS
+![SWOT ANALYSIS](https://github.com/12345292/Cricket-Board-Management-System/blob/main/1_Requirements/SWOT.png)
+
+# Detail requirements
+## High Level Requirements: 
+| ID | Description | Category | Status | 
+| ----- | ----- | ------- | ---------|
+| HR01 | User shall be able to view the score | Techincal | Implemented | 
+| HR02 | User shall be able to modify the player's record | Techincal | Implemented|
+| HR03 | User shall be able to update the player's scores | Techincal | Implemented |
+
+##  Low level Requirements:
+ 
+| ID | Description | HLR ID | Status (Implemented/Future) |
+| ------ | --------- | ------ | ----- |
+| LR01 | Records the all player's details | HR01 | Implemented |
+| LR02 | The user is allowed to search and delete the player's record | HR02 | Implemented |
+| LR03 | The score is updated by replacing the previously secured score with the most recently achieved score.| HR03 | Implemented|
+
+
 
 ## Outcome:
  
