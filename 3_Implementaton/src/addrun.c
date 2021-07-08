@@ -5,12 +5,13 @@
 
 int add_run()
 {
-int e_ID;
+char choice;
+int i=0,f,c,e_ID;
 
 struct record
 {
-int ID,run;
-
+int ID,avg,run,total;
+char name[20];
 }r;
 
 int add, flag=0;
@@ -52,6 +53,6 @@ printf("\nEnter any key to continue.\n");
  remove("Player_record.txt");
 rename("temp.txt","Player_record.txt");
   remove("temp.txt");
-//getch();
+getch();
 
 }

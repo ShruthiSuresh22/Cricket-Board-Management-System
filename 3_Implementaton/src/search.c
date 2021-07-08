@@ -6,11 +6,12 @@
 
 int search_by_ID()
 {
-int f,e_ID;
+char choice;
+int i=0,f,c,e_ID;
 
 struct record
 {
-int ID,avg,run;
+int ID,avg,run,total;
 char name[20];
 }r;
 
@@ -34,5 +35,5 @@ else
 printf("\nNo Record Found.\n");
 fclose(fp);
 printf("\nEnter any key to continue.");
-//getch();
+getch();
 }
