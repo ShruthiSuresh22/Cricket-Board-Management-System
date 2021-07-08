@@ -5,13 +5,12 @@
 
 int add_run()
 {
-    char choice;
-int i=0,f,c,e_ID;
+int e_ID;
 
 struct record
 {
-int ID,avg,run,total;
-char name[20];
+int ID,run,total;
+
 }r;
 
 int add,flag=0;

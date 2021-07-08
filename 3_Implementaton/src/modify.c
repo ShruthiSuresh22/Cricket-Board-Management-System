@@ -7,15 +7,15 @@
 int modify_modify()
 {
 char choice;
-int i=0,f,c,e_ID;
+int i=0,c,e_ID;
 
 struct record
 {
-int ID,avg,run,total;
+int ID,avg,run;
 char name[20];
 }r;
 
-int add,flag=0;
+int flag=0;
 printf("\nEnter Player's ID: ");
 scanf("%d",&e_ID);
 FILE *fp,*fs;

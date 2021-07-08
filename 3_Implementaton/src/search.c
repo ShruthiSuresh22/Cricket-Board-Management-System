@@ -4,15 +4,13 @@
 #include<stdlib.h>
 #include "fun.h"
 
-
 int search_by_ID()
 {
-    char choice;
-int i=0,f,c,e_ID;
+int f,e_ID;
 
 struct record
 {
-int ID,avg,run,total;
+int ID,avg,run,f;
 char name[20];
 }r;
 
@@ -23,7 +21,10 @@ fp=fopen("Player_record.txt","r");
 while(fread(&r,sizeof(r),1,fp))
 {
 if(e_ID==r.ID)
-{  f=1;   break;  }
+{  
+f=1;  
+break; 
+}
 else
 f=0;
 }
