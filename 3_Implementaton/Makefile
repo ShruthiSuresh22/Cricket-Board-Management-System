@@ -6,6 +6,3 @@ target : $(SRC) $(INC)
 
 run : target 
 	./output.exe
-
-clean :
-    run output.exe	
