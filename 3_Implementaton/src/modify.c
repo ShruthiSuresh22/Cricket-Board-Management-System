@@ -6,7 +6,7 @@
 
 int modify_modify()
 {
-    char choice;
+char choice;
 int i=0,f,c,e_ID;
 
 struct record
@@ -30,7 +30,8 @@ scanf("%s",&choice);
 if(choice=='y' || choice=='Y')
 {
 do
-{  system("cls");
+{  
+system("cls");
 printf("\n1. Name:  %s\n",r.name);
 printf("2. Average: %d \n",r.avg);
 printf("3. Run: %d\n",r.run);
@@ -53,8 +54,6 @@ default:printf("\nEnter Valid Choice");
 }
 }while(c!='4');
 fwrite(&r,sizeof(r),1,fs);
-
-
 }
 else
 {
@@ -63,7 +62,7 @@ printf("\nRecord Not Saved.");
 flag = 1;
 }else{
 
-  fwrite(&r,sizeof(r),1,fs);
+fwrite(&r,sizeof(r),1,fs);
 }
 
 }

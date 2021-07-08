@@ -4,16 +4,6 @@
 #include<stdlib.h>
 #include "fun.h"
 
-int page_1();
-int main_function();
-int add_new_player();
-int going_to_get_ID();
-int add_run();
-int modify_modify();
-int search_by_ID();
-int see_all_IDs();
-int delete_Player();
-
 char choice;
 int i=0,f,c,e_ID;
 
@@ -87,7 +77,7 @@ int going_to_get_ID()
 { 
 
  f=0;
-nav:
+//nav:
 printf("\n\n\nEnter Player ID : ");
 e_again:
 scanf("%d",&e_ID);
@@ -120,8 +110,6 @@ r.ID=e_ID;
 
 int add_new_player()
 {
-    
-
 FILE *fp;
 fp=fopen("Player_record.txt","a");
 going_to_get_ID();
@@ -160,7 +148,7 @@ getch();
 
 int see_all_IDs()
 {
-   system("cls");
+system("cls");
 FILE *fp;
 fp=fopen("Player_record.txt","r");
 
@@ -201,7 +189,6 @@ while(fread(&r,sizeof(r),1,fp))
 if(e_ID==r.ID)
 
 {
-
 printf("\n ID=00%d \n Name=%s \n Average=%d \n Runs=%d\n",r.ID,r.name,r.avg,r.run);
 printf("\nDo you want to delete this record([y/Y or n/N]): ");
 choice=getche();
@@ -217,7 +204,6 @@ printf("\nPlayer's Record Deleted Successfully.");
 flag=1;
 }else{
 fwrite(&r,sizeof(r),1,fs);
-
 }
 }
 
