@@ -34,5 +34,5 @@ else
 printf("\nNo Record Found.\n");
 fclose(fp);
 printf("\nEnter any key to continue.");
-getch();
+//getch();
 }

@@ -100,7 +100,7 @@ if(f==1)
 {		system("cls");
 printf("\n********     ERROR     ********\n");
 printf("Duplicate ID......\nPress enter key to continue");
-getche();
+//getche();
 going_to_get_ID();
 }
 else
@@ -144,7 +144,7 @@ else
 printf("\nRecord not saved\n");
 fclose(fp);
 printf("\nPress any key to continue\n");
-getch();
+//getch();
 }
 
 int see_all_IDs()
@@ -220,7 +220,7 @@ printf("\nEnter any key to continue.\n");
 remove("Player_record.txt");
 rename("temp.txt","Player_record.txt");
 remove("temp.txt");
-getch();
+//getch();
 }
 
 
