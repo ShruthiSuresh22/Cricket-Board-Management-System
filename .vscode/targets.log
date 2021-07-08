@@ -8,7 +8,7 @@ make.exe: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul 08 16:04:51 2021
+# Make data base, printed on Thu Jul 08 16:21:40 2021
 
 # Variables
 
@@ -53,6 +53,8 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
 VSCODE_NODE_CACHED_DATA_DIR = C:\Users\karan\AppData\Roaming\Code\CachedData\507ce72a4466fbb27b715c3722558bb15afa9f48
 # environment
 TMP = C:\Users\karan\AppData\Local\Temp
@@ -63,7 +65,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-54af66bf-a586-4822-82eb-3264d35bb3f7-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-deba3516-6314-4a87-a892-96f2b249b7f3-sock
 # environment
 VSCODE_CWD = C:\Users\karan\AppData\Local\Programs\Microsoft VS Code
 # default
@@ -91,7 +93,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13392_WXVTQLMQGGLXQEZB
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10664_HZAOZOUUPRKZHTDP
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -201,11 +203,13 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 13392
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 10664
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-TOLSUP5U
 # variable set hash-table stats:
-# Load=96/1024=9%, Rehash=0, Collisions=15/120=13%
+# Load=98/1024=10%, Rehash=0, Collisions=15/122=12%
 
 # Pattern-specific Variable Values
 
@@ -301,6 +305,6 @@ src/search.c:
 # strcache performance: lookups = 27 / hit rate = 25%
 # hash-table stats:
 # Load=20/8192=0%, Rehash=0, Collisions=1/27=4%
-# Finished Make data base on Thu Jul 08 16:04:51 2021
+# Finished Make data base on Thu Jul 08 16:21:40 2021
 
  

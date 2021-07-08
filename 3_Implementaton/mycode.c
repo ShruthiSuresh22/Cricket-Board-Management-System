@@ -100,7 +100,7 @@ if(f==1)
 {		system("cls");
 printf("\n********     ERROR     ********\n");
 printf("Duplicate ID......\nPress enter key to continue");
-//getche();
+getche();
 going_to_get_ID();
 }
 else
@@ -110,6 +110,7 @@ r.ID=e_ID;
 
 int add_new_player()
 {
+    
 FILE *fp;
 fp=fopen("Player_record.txt","a");
 going_to_get_ID();
@@ -143,12 +144,12 @@ else
 printf("\nRecord not saved\n");
 fclose(fp);
 printf("\nPress any key to continue\n");
-//getch();
+getch();
 }
 
 int see_all_IDs()
 {
-system("cls");
+   system("cls");
 FILE *fp;
 fp=fopen("Player_record.txt","r");
 
@@ -189,6 +190,7 @@ while(fread(&r,sizeof(r),1,fp))
 if(e_ID==r.ID)
 
 {
+
 printf("\n ID=00%d \n Name=%s \n Average=%d \n Runs=%d\n",r.ID,r.name,r.avg,r.run);
 printf("\nDo you want to delete this record([y/Y or n/N]): ");
 choice=getche();
@@ -204,6 +206,7 @@ printf("\nPlayer's Record Deleted Successfully.");
 flag=1;
 }else{
 fwrite(&r,sizeof(r),1,fs);
+
 }
 }
 
@@ -217,7 +220,7 @@ printf("\nEnter any key to continue.\n");
 remove("Player_record.txt");
 rename("temp.txt","Player_record.txt");
 remove("temp.txt");
-//getch();
+getch();
 }
 
 
