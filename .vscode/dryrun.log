@@ -2,14 +2,11 @@ make.exe --dry-run --keep-going --print-directory
 make.exe: Entering directory 'c:/Miniproject_1'
  
 make.exe: *** No rule to make target 'mycode.c', needed by 'target'.
+make.exe: *** No rule to make target 'src/addrun.c', needed by 'target'.
+make.exe: *** No rule to make target 'src/search.c', needed by 'target'.
+make.exe: *** No rule to make target 'src/modify.c', needed by 'target'.
  
-make.exe: *** No rule to make target 'addrun.c', needed by 'target'.
- 
-make.exe: *** No rule to make target 'search.c', needed by 'target'.
- 
-make.exe: *** No rule to make target 'modify.c', needed by 'target'.
- 
-make.exe: *** No rule to make target 'fun.h', needed by 'target'.
+make.exe: *** No rule to make target 'inc', needed by 'target'.
  
 make.exe: Leaving directory 'c:/Miniproject_1'
  
