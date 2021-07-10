@@ -25,7 +25,7 @@ And also user can add new player and modify the  players details like rename the
 # 4W&#39;s and 1&#39;H
 
 ## Who:
-* Everyone can do this if interset in the cricket game.
+* This is open to all whoever have interset in the cricket game.
 
 ## What:
 * This project aims to not only store the data. but also improve the user's knowledge, through various concepts in file handling.
