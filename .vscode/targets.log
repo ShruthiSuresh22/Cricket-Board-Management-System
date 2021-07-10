@@ -8,7 +8,7 @@ make.exe: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 10 13:24:11 2021
+# Make data base, printed on Sat Jul 10 13:29:07 2021
 
 # Variables
 
@@ -30,8 +30,7 @@ VSCODE_LOG_NATIVE = false
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
-#  
-environment
+# environment
 HOMEDRIVE = C:
 # automatic
 @F = $(notdir $@)
@@ -64,7 +63,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-42ecdb2c-4c5d-4c3c-b48f-9c00379ce110-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-31af0e02-db1f-4ffc-8b4e-72ac23d8123c-sock
 # environment
 VSCODE_CWD = C:\Users\karan\AppData\Local\Programs\Microsoft VS Code
 # default
@@ -92,7 +91,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9556_AKQUDMFSTTNMJLJQ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11376_GJKHJBIPQXCQHUXE
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -208,7 +207,7 @@ PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 9556
+VSCODE_PID = 11376
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-TOLSUP5U
 # variable set hash-table stats:
@@ -308,6 +307,6 @@ src/search.c:
 # strcache performance: lookups = 28 / hit rate = 25%
 # hash-table stats:
 # Load=21/8192=0%, Rehash=0, Collisions=1/28=4%
-# Finished Make data base on Sat Jul 10 13:24:11 2021
+# Finished Make data base on Sat Jul 10 13:29:07 2021
 
  
