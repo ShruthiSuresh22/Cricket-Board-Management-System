@@ -19,7 +19,7 @@ And also user can add new player and modify the  players details like rename the
 ## SWOT ANALYSIS
 ![SWOT ANALYSIS](https://github.com/12345292/Cricket-Board-Management-System/blob/main/1_Requirements/SWOT.png)
 
-# 4W&#39;s and 1&#39;H
+# 3W&#39;s and 1&#39;H
 
 ## Who:
 * This is open to all whoever have interset in the cricket game.
