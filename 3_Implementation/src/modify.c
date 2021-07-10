@@ -38,7 +38,7 @@ c=getchar();
 switch(c)
 {
 case '1':printf("\nEnter new Name: ");
-scanf("%s",&r.name);
+scanf("%s",r.name);
 break;
 case '2':printf("\nEnter new Average: ");
 scanf("%d",&r.avg);
