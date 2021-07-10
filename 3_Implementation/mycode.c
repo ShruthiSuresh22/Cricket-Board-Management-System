@@ -1,5 +1,6 @@
 #include<stdio.h>
 //#include<conio.h>
+#include<ctype.h>
 #include<string.h>
 #include<stdlib.h>
 #include "fun.h"
@@ -60,7 +61,10 @@ printf("\n 7. Main Menu");
 printf("\n 8. EXIT \n");
 printf("\nEnter Choice: ");
 //scanf("%s",c);
-c=getche();
+char c;
+	 scanf(" %c",&c);
+     choice=toupper(c);
+//c=getche();
 switch(c)
 {
 case '1':add_new_player();
@@ -112,7 +116,7 @@ for(int i=0 ; i<2 ;i++)
 printf("\n");
 printf("\n********     ERROR     ********\n");
 printf("Duplicate ID......\nPress enter key to continue");
-getche();
+//getche();
 going_to_get_ID();
 }
 else
@@ -146,7 +150,10 @@ goto a_run;
 }
 printf("\n==================================\n");
 printf("Would You like to save the Record([y/Y or n/N]): ");
-choice=getche();
+//choice=getche();
+char t;
+	 scanf(" %c",&t);
+     choice=toupper(t);
 if(choice=='Y' || choice=='y')
 {
 fwrite(&r,sizeof(r),1,fp);
@@ -215,7 +222,10 @@ if(e_ID==r.ID)
 
 printf("\n ID=00%d \n Name=%s \n Average=%d \n Runs=%d\n",r.ID,r.name,r.avg,r.run);
 printf("\nDo you want to delete this record([y/Y or n/N]): ");
-choice=getche();
+//choice=getche();
+char a;
+	 scanf(" %c",&a);
+     choice=toupper(a);
 if(choice=='n' || choice=='N')
 {
 printf("\nPlayer's Record Not Deleted.");
