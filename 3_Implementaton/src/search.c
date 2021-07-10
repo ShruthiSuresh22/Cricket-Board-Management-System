@@ -34,6 +34,9 @@ printf("\nID:%d\nAverage:%d \nName:%s \nRuns:%d",r.ID,r.avg,r.name,r.run);
 else
 printf("\nNo Record Found.\n");
 fclose(fp);
+char a,b;
+scanf("%c",&a);
 printf("\nEnter any key to continue.");
-getch();
+//getch();
+scanf("%c",&b);
 }

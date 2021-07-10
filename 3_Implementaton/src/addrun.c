@@ -49,10 +49,13 @@ if(flag==0)
  }
  fclose(fs);
 fclose(fp);
+char a,b;
+scanf("%c",&a);
 printf("\nEnter any key to continue.\n");
  remove("Player_record.txt");
 rename("temp.txt","Player_record.txt");
   remove("temp.txt");
-getch();
+//getch();
+scanf("%c",&b);
 
 }

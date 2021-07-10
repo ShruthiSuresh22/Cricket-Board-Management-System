@@ -8,7 +8,7 @@ make.exe: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul 08 16:31:34 2021
+# Make data base, printed on Sat Jul 10 12:47:35 2021
 
 # Variables
 
@@ -55,8 +55,6 @@ MAKEFILE_LIST :=  Makefile
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
-VSCODE_NODE_CACHED_DATA_DIR = C:\Users\karan\AppData\Roaming\Code\CachedData\507ce72a4466fbb27b715c3722558bb15afa9f48
-# environment
 TMP = C:\Users\karan\AppData\Local\Temp
 # environment
 VSCODE_VERBOSE_LOGGING = true
@@ -65,7 +63,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-6cec6fb6-944a-433a-a13b-fbcc661d6f1e-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-7aa8cf2c-f500-414a-8505-3288a0ead311-sock
 # environment
 VSCODE_CWD = C:\Users\karan\AppData\Local\Programs\Microsoft VS Code
 # default
@@ -93,7 +91,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_18228_OUIAEVIHJQEKNUPT
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8756_OWNXVVNSEZEHVJVC
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -110,6 +108,8 @@ USERNAME = karan
 PUBLIC = C:\Users\Public
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\karan\AppData\Roaming\Code\CachedData\2d23c42a936db1c7b3b06f918cde29561cc47cd6
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
@@ -151,7 +151,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\ef2591d446e5cae8ab02096f8cb6d205-1.57.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\ef2591d446e5cae8ab02096f8cb6d205-1.58.0-main-sock
 # environment
 HOMEPATH = \Users\karan
 # environment
@@ -180,6 +180,8 @@ TEMP = C:\Users\karan\AppData\Local\Temp
 COMSPEC = C:\WINDOWS\system32\cmd.exe
 # default
 MAKEFILES := 
+# environment
+VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
 # automatic
 <F = $(notdir $<)
 # environment
@@ -205,11 +207,11 @@ PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 18228
+VSCODE_PID = 8756
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-TOLSUP5U
 # variable set hash-table stats:
-# Load=98/1024=10%, Rehash=0, Collisions=15/122=12%
+# Load=99/1024=10%, Rehash=0, Collisions=15/123=12%
 
 # Pattern-specific Variable Values
 
@@ -305,6 +307,6 @@ src/search.c:
 # strcache performance: lookups = 27 / hit rate = 25%
 # hash-table stats:
 # Load=20/8192=0%, Rehash=0, Collisions=1/27=4%
-# Finished Make data base on Thu Jul 08 16:31:34 2021
+# Finished Make data base on Sat Jul 10 12:47:35 2021
 
  

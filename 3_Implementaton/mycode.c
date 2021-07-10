@@ -32,9 +32,12 @@ printf("************************************************************************
 printf("\t\tWelcome To The Cricket Board Management System \n");
 printf("\n********************************************************************************\n");
 printf("\n\n\n\n\n\n");
-sleep(3);
+//sleep(3);
+char a,b;
+scanf("%c",&a);
 printf("\nPress any key to continue\n");
-getch();
+//getch();
+scanf("%c",&b);
 }
 
 int main_function()
@@ -143,8 +146,11 @@ printf("\nRecord Saved Succesfully\n ");
 else
 printf("\nRecord not saved\n");
 fclose(fp);
+char a,b;
+scanf("%s",&a);
 printf("\nPress any key to continue\n");
-getch();
+//getch();
+scanf("%c",&b);
 }
 
 int see_all_IDs()
@@ -172,8 +178,11 @@ printf("\n=================================================\n");
 }
 
 fclose(fp);
+char a,b;
+scanf("%c",&a);
 printf("\nEnter any key to continue.");
-getch();
+//getch();
+scanf("%c",&b);
 }
 
 int delete_Player()
@@ -216,11 +225,14 @@ printf("\nInvalid ID.");
 }
 fclose(fs);
 fclose(fp);
+char a,b;
+scanf("%c",&a);
 printf("\nEnter any key to continue.\n");
 remove("Player_record.txt");
 rename("temp.txt","Player_record.txt");
 remove("temp.txt");
-getch();
+//getch();
+scanf("%c",&b);
 }
 
 
