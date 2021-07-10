@@ -3,6 +3,9 @@
  * This project is a cricket Game score board Management, created using C language, designed and employed for a simple console application.
  * There are many features such as create,search,modify,delete the Player's record.
  * The main feature of this project is to know the usage of file handeling and structure concept.
+
+## Research
+In this quiz game, the questions are handpicked from various domains. The user's knowledge and expertise is tested and challenged in the areas of science, mathematics, sports and many other miscellaneous fields.
  
 ## Features:
 
@@ -21,6 +24,16 @@ This quiz game has some built in features like,
 ## SWOT ANALYSIS
 ![SWOT ANALYSIS](https://github.com/12345292/Cricket-Board-Management-System/blob/main/1_Requirements/SWOT.png)
 
+# 4W&#39;s and 1&#39;H
+
+## Who:
+* Children and young inquisitive teenagers who enjoy challenging themselves in miscellaneous domains.
+
+## What:
+* The quiz aims to not only test. but also improve the user's knowledge, through various questions of varying difficulty.
+ 
+## Where:
+* This game can be played anywhere and is supported by most of the platforms without the use of internet.
 # Detail requirements
 ## High Level Requirements: 
 | ID | Description | Category | Status | 
