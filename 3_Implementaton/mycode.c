@@ -118,7 +118,7 @@ FILE *fp;
 fp=fopen("Player_record.txt","a");
 going_to_get_ID();
 printf("\nEnter Player's Name: ");
-scanf("%s",&r.name);
+scanf("%s",r.name);
 printf("\nEnter Player's Average: ");
 a_avg:
 scanf("%d",&r.avg);
