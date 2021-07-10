@@ -35,7 +35,7 @@ printf("\nNo Record Found.\n");
 fclose(fp);
 char a,b;
 scanf("%c",&a);
-printf("\nEnter any key to continue.");
+printf("\nPress Enter key to continue.");
 //getch();
 scanf("%c",&b);
 }

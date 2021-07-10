@@ -25,7 +25,7 @@ page_1();
 main_function();
 }
 
-page_1()
+int page_1()
 {
 printf("\n\n\n\n\n\n");
 printf("********************************************************************************\n");
@@ -35,16 +35,20 @@ printf("\n\n\n\n\n\n");
 //sleep(3);
 char a,b;
 scanf("%c",&a);
-printf("\nPress any key to continue\n");
+printf("\nPress Enter key to continue\n");
 //getch();
 scanf("%c",&b);
 }
 
 int main_function()
 {
-system("cls");
+//system("cls");
+for(int i=0 ; i<2 ;i++)
+printf("\n");
 do
-{   system("cls");
+{   //system("clear");
+for(int i=0 ; i<2 ;i++)
+printf("\n");
 printf("\n MENU:\n");
 printf("\n 1. Add New Player");
 printf("\n 2. Update Runs");
@@ -55,6 +59,7 @@ printf("\n 6. Delete Player's Record");
 printf("\n 7. Main Menu");
 printf("\n 8. EXIT \n");
 printf("\nEnter Choice: ");
+//scanf("%s",c);
 c=getche();
 switch(c)
 {
@@ -86,7 +91,9 @@ e_again:
 scanf("%d",&e_ID);
 
 if(e_ID<0)
-{   system("cls");
+{   //system("cls");
+for(int i=0 ; i<2 ;i++)
+printf("\n");
 printf("\n   Invalid ID1 \nEnter another ID");
 goto e_again;
 }
@@ -100,7 +107,9 @@ else { }
 }
 fclose(fp);
 if(f==1)
-{		system("cls");
+{		//system("clear");
+for(int i=0 ; i<2 ;i++)
+printf("\n");
 printf("\n********     ERROR     ********\n");
 printf("Duplicate ID......\nPress enter key to continue");
 getche();
@@ -147,15 +156,17 @@ else
 printf("\nRecord not saved\n");
 fclose(fp);
 char a,b;
-scanf("%s",&a);
-printf("\nPress any key to continue\n");
+scanf("%c",&a);
+printf("\nPress Enter key to continue\n");
 //getch();
 scanf("%c",&b);
 }
 
 int see_all_IDs()
 {
-   system("cls");
+   //system("clear");
+   for(int i=0 ; i<5 ;i++)
+     printf("\n");
 FILE *fp;
 fp=fopen("Player_record.txt","r");
 
@@ -180,7 +191,7 @@ printf("\n=================================================\n");
 fclose(fp);
 char a,b;
 scanf("%c",&a);
-printf("\nEnter any key to continue.");
+printf("\n Press Enter key to continue.");
 //getch();
 scanf("%c",&b);
 }
@@ -188,7 +199,9 @@ scanf("%c",&b);
 int delete_Player()
 {
 int flag=0;
-system("cls");
+//system("clear");
+for(int i=0 ; i<2 ;i++)
+printf("\n");
 printf("\nEnter ID to delete: ");
 scanf("%d",&e_ID);
 FILE *fp,*fs;
@@ -227,7 +240,7 @@ fclose(fs);
 fclose(fp);
 char a,b;
 scanf("%c",&a);
-printf("\nEnter any key to continue.\n");
+printf("\nPress Enter key to continue.\n");
 remove("Player_record.txt");
 rename("temp.txt","Player_record.txt");
 remove("temp.txt");

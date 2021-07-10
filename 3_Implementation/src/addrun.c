@@ -50,7 +50,7 @@ if(flag==0)
 fclose(fp);
 char a,b;
 scanf("%c",&a);
-printf("\nEnter any key to continue.\n");
+printf("\n Press Enter key to continue.\n");
  remove("Player_record.txt");
 rename("temp.txt","Player_record.txt");
   remove("temp.txt");

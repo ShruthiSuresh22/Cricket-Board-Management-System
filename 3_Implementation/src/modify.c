@@ -26,13 +26,15 @@ if(choice=='y' || choice=='Y')
 {
 do
 {  
-system("cls");
+//system("clr");
+for(int i=0 ; i<2 ;i++)
+printf("\n");
 printf("\n1. Name:  %s\n",r.name);
 printf("2. Average: %d \n",r.avg);
 printf("3. Run: %d\n",r.run);
 printf("4. Exit \n");
 printf("\nEnter choice to modify: ");
-c=getche();
+c=getchar();
 switch(c)
 {
 case '1':printf("\nEnter new Name: ");
@@ -72,7 +74,7 @@ fclose(fs);
 fclose(fp);
 char a,b;
 scanf("%c",&a);
-printf("\nEnter any key to continue.\n");
+printf("\n Press Enter key to continue.\n");
 remove("Player_record.txt");
 rename("temp.txt","Player_record.txt");
 remove("temp.txt");
