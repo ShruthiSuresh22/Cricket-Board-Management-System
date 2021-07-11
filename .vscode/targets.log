@@ -7,8 +7,9 @@ make.exe: *** No rule to make target 'all'.  Stop.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Sat Jul 10 15:49:31 2021
+# Make data base, printed on Sun Jul 11 15:31:24 2021
 
 # Variables
 
@@ -61,7 +62,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-bf689459-b3a2-4fbc-a0fd-570b8311c06f-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ab67af1c-0043-44cb-921b-739b8a52c05f-sock
 # environment
 VSCODE_CWD = C:\Users\karan\AppData\Local\Programs\Microsoft VS Code
 # default
@@ -89,7 +90,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9180_WXCPXBOLGJFAKKGE
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10520_GOLKYHKNAQSQKFOP
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -114,6 +115,8 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 COMMONPROGRAMFILES = C:\Program Files\Common Files
 # environment
 LOGONSERVER = \\LAPTOP-TOLSUP5U
+# environment
+ONEDRIVECONSUMER = C:\Users\karan\OneDrive
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
@@ -203,11 +206,11 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 9180
+VSCODE_PID = 10520
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-TOLSUP5U
 # variable set hash-table stats:
-# Load=97/1024=9%, Rehash=0, Collisions=15/121=12%
+# Load=98/1024=10%, Rehash=0, Collisions=15/122=12%
 
 # Pattern-specific Variable Values
 
@@ -303,6 +306,6 @@ src/search.c:
 # strcache performance: lookups = 28 / hit rate = 25%
 # hash-table stats:
 # Load=21/8192=0%, Rehash=0, Collisions=1/28=4%
-# Finished Make data base on Sat Jul 10 15:49:31 2021
+# Finished Make data base on Sun Jul 11 15:31:24 2021
 
  
