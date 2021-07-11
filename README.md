@@ -1,19 +1,38 @@
 # Cricket-Board-Management-System
 To create and update a Player's Record
 
-I. Indroduction: 
+## Folder Structure
+Folder             | Description
+------------------ | -----------------------------------------
+`1_Requirements`   | Documents detailing requirements and research
+`2_Design`         | Documents specifying design details
+`3_Implementation` | All code and documentation
+`4_Test_plan`      | Documents with test plans and procedures
 
-* The main feature of this project is to know the usage of file handeling and structure concept.
 
-II. Features:
+## Contributors List and Summary
 
-Using File handling and Structure concepts here created a simple cricket score board for to store , delete , search and modify the plyaers data.
+SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
+-------|---------|----------------|----------------|---------------|-------------|--------------
+`303569` | S Karan  |  5|     |  | |     
 
-III. Outcome:
- 
- The outcome of this project is we can able to create and update a simple player board.
- 
- 
-Software : The platform used to run this project is visual studio code(version 1.57).
+| Feature Id | Feature |
+| -----------|---------|
+|F_1| To add the new player's record  |
+|F_2| To modify the player's record |
+|F_3| To search the player's record|
+|F_4| To view all the player's record |
+|F_5| To delete the player's record|
 
-Operating System : Windows 10
+
+## Challenges Faced and How Was It Overcome
+| No. | Challenge | Solution
+|-----|-----------|--------
+|1. | Accessing the text files which was in different directory | Given full extension while opening the file
+|2. | Score was not being updated properly | Modified the logic of the program 
+|3. | Errror while running the code | some modificaton done in the code|
+|4. | Error while Building the makefile | Trial and Error and referred Mini Project Template
+
+## Reference
+The above code was already did during my college project but in a simple manner now its build with some extra features. My contributions to the code have been mentioned above and errors in the original code have been rectified.   
+
