@@ -9,7 +9,7 @@ make.exe: *** No rule to make target 'all'.  Stop.
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Sun Jul 11 15:31:24 2021
+# Make data base, printed on Mon Jul 12 14:26:32 2021
 
 # Variables
 
@@ -54,6 +54,8 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
 TMP = C:\Users\karan\AppData\Local\Temp
 # environment
 VSCODE_VERBOSE_LOGGING = true
@@ -62,7 +64,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ab67af1c-0043-44cb-921b-739b8a52c05f-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-b98b9eec-e0d7-4c65-bfb9-a2cdaf330f90-sock
 # environment
 VSCODE_CWD = C:\Users\karan\AppData\Local\Programs\Microsoft VS Code
 # default
@@ -90,7 +92,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10520_GOLKYHKNAQSQKFOP
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1328_XNUBANNERLJOXKCM
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -115,8 +117,6 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 COMMONPROGRAMFILES = C:\Program Files\Common Files
 # environment
 LOGONSERVER = \\LAPTOP-TOLSUP5U
-# environment
-ONEDRIVECONSUMER = C:\Users\karan\OneDrive
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
@@ -206,11 +206,13 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 10520
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 1328
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-TOLSUP5U
 # variable set hash-table stats:
-# Load=98/1024=10%, Rehash=0, Collisions=15/122=12%
+# Load=99/1024=10%, Rehash=0, Collisions=15/123=12%
 
 # Pattern-specific Variable Values
 
@@ -218,9 +220,9 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-TOLSUP5U
 
 # Directories
 
-# . (key c:/Miniproject_1, mtime 1625912076): 11 files, no impossibilities.
+# . (key c:/Miniproject_1, mtime 1626005940): 12 files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 12 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -303,9 +305,9 @@ src/search.c:
 # strcache buffers: 1 (0) / strings = 21 / storage = 184 B / avg = 8 B
 # current buf: size = 8162 B / used = 184 B / count = 21 / avg = 8 B
 
-# strcache performance: lookups = 28 / hit rate = 25%
+# strcache performance: lookups = 29 / hit rate = 27%
 # hash-table stats:
-# Load=21/8192=0%, Rehash=0, Collisions=1/28=4%
-# Finished Make data base on Sun Jul 11 15:31:24 2021
+# Load=21/8192=0%, Rehash=0, Collisions=1/29=3%
+# Finished Make data base on Mon Jul 12 14:26:32 2021
 
  
