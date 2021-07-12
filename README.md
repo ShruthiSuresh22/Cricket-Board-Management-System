@@ -1,5 +1,9 @@
-# Cricket-Board-Management-System
-To create and update a Player's Record
+Cricket-Board-Management-System
+Build | Code Quality| [Git Inspector](using github.io option) | Code Coverage
+------|----------|---------------|--------|
+[![C/C++ CI - Build Status](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/c-cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/cppcheck.yml)|[![Contribution Check - Git Inspector](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/gitinspector.yml)| [![CI-Coverage](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/gcov.yml/badge.svg)](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/gcov.yml)
+
+
 
 ## Folder Structure
 Folder             | Description
