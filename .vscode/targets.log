@@ -1,5 +1,5 @@
 make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make.exe: *** No rule to make target 'all'.  Stop.
+make.exe: *** No rule to make target 'src/*.c', needed by 'all'.  Stop.
  
 # GNU Make 4.2.1
 # Built for Windows32
@@ -8,7 +8,7 @@ make.exe: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jul 13 07:33:05 2021
+# Make data base, printed on Tue Jul 13 09:33:28 2021
 
 # Variables
 
@@ -20,8 +20,8 @@ GNUMAKEFLAGS :=
 ?F = $(notdir $?)
 # default
 .SHELLFLAGS := -c
-# makefile (from 'Makefile', line 1)
-SRC = main.c src/addrun.c src/search.c src/modify.c 
+# makefile (from 'Makefile', line 5)
+SRC = mycode.c src/*.c
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -40,12 +40,16 @@ HOMEDRIVE = C:
 CURDIR := c:/Miniproject_1
 # default
 SHELL := sh.exe
+# makefile (from 'Makefile', line 26)
+RM = del /q
 # environment
 WINDIR = C:\WINDOWS
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# makefile (from 'Makefile', line 3)
+CFLAGS = -Wall -g
 # environment
 ONEDRIVE = C:\Users\karan\OneDrive
 # environment
@@ -66,12 +70,16 @@ PROGRAMDATA = C:\ProgramData
 VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-b9961578-4aeb-451b-a159-68665179e809-sock
 # environment
 VSCODE_CWD = C:\Users\karan\AppData\Local\Programs\Microsoft VS Code
+# makefile (from 'Makefile', line 19)
+TEST_SRC = src/*c test/test_cricketboardscore.c unity/unity.c 
 # default
 MAKE_HOST := Windows32
 # environment
 PATH = C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Users\karan\Downloads\R2013a\karan mat\runtime\win64;C:\Users\karan\Downloads\R2013a\karan mat\bin;C:\Users\karan\Downloads\R2013a\Crack\runtime\win64;C:\Users\karan\Downloads\R2013a\Crack\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jre1.8.0_131\bin;C:\Program Files\Git\cmd;C:\Users\karan\AppData\Local\Microsoft\WindowsApps;C:\Users\karan\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;
 # environment
 ONLINESERVICES = Online Services
+# makefile (from 'Makefile', line 23)
+TEST_OUTPUT = $(BUILD_DIR)/Test_$(TEST_PROJ_NAME).$(EXEC)
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
@@ -90,6 +98,8 @@ ELECTRON_RUN_AS_NODE = 1
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync load
 # automatic
 %F = $(notdir $%)
+# makefile (from 'Makefile', line 27)
+FixPath = $(subst /,\,$1)
 # environment
 CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13340_GACEBDMRROKOJLZG
 # environment
@@ -108,6 +118,8 @@ USERNAME = karan
 PUBLIC = C:\Users\Public
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# makefile (from 'Makefile', line 1)
+TEST_PROJ_NAME = Cricket_Board_Management_System
 # environment
 VSCODE_CODE_CACHE_PATH = C:\Users\karan\AppData\Roaming\Code\CachedData\2d23c42a936db1c7b3b06f918cde29561cc47cd6
 # environment
@@ -126,10 +138,16 @@ MAKELEVEL := 0
 MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
+# makefile (from 'Makefile', line 2)
+BUILD_DIR = Build
+# makefile (from 'Makefile', line 28)
+EXEC = exe
 # default
 MAKE_VERSION := 4.2.1
 # makefile
-.DEFAULT_GOAL := target
+.DEFAULT_GOAL := Build
+# makefile (from 'Makefile', line 14)
+INC_TEST = -Iinc -Iunity
 # environment
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # automatic
@@ -140,7 +158,7 @@ LOCALAPPDATA = C:\Users\karan\AppData\Local
 PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := make.exe
-# makefile (from 'Makefile', line 2)
+# makefile (from 'Makefile', line 8)
 INC = inc
 # default
 .VARIABLES := 
@@ -178,6 +196,8 @@ APPDATA = C:\Users\karan\AppData\Roaming
 TEMP = C:\Users\karan\AppData\Local\Temp
 # environment
 COMSPEC = C:\WINDOWS\system32\cmd.exe
+# makefile (from 'Makefile', line 17)
+OUTPUT = $(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC)
 # default
 MAKEFILES := 
 # environment
@@ -211,7 +231,7 @@ VSCODE_PID = 13340
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-TOLSUP5U
 # variable set hash-table stats:
-# Load=99/1024=10%, Rehash=0, Collisions=15/123=12%
+# Load=109/1024=11%, Rehash=0, Collisions=16/137=12%
 
 # Pattern-specific Variable Values
 
@@ -219,9 +239,10 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-TOLSUP5U
 
 # Directories
 
-# . (key c:/Miniproject_1, mtime 1626141553): 12 files, no impossibilities.
+# . (key c:/Miniproject_1, mtime 1626142000): 13 files, no impossibilities.
+# src: could not be stat'd.
 
-# 12 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -229,31 +250,43 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-TOLSUP5U
 
 # Files
 
-# Not a target:
-src/modify.c:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-all:
+all: mycode.c src/*.c Build
 #  Command line target.
-#  Implicit rule search has been done.
+#  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
+#  recipe to execute (from 'Makefile', line 38):
+	gcc -I $(INC) $(SRC) -o $(call FixPath,$(OUTPUT)) 
 
-# Not a target:
-main.c:
+coverageCheck: Build
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+#  recipe to execute (from 'Makefile', line 50):
+	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(SRC) $(INC_TEST) -o $(OUTPUT)
+	./$(OUTPUT)
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2021-07-13 07:31:41
+#  Last modified 2021-07-13 09:32:56
 #  File has been updated.
 #  Successfully updated.
+
+test: Build
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 54):
+	gcc $(TEST_SRC) $(INC_TEST) -o $(TEST_OUTPUT)
+	./$(TEST_OUTPUT)
+
+Build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 12):
+	mkdir $(BUILD_DIR)
 
 # Not a target:
 .DEFAULT:
@@ -261,52 +294,55 @@ Makefile:
 #  Modification time never checked.
 #  File has not been updated.
 
-run: target
+run: all
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 8):
-	./output.exe
+#  recipe to execute (from 'Makefile', line 41):
+	$(call FixPath,$(OUTPUT))
 
-target: main.c src/addrun.c src/search.c src/modify.c inc
+clean:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 5):
-	gcc $(SRC) -I$(INC) -o output.exe
-
-# Not a target:
-src/addrun.c:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 44):
+	$(RM) $(call FixPath,$(BUILD_DIR)/*)
 
 # Not a target:
-inc:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+mycode.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-13 07:36:40
+#  File has been updated.
+#  Successfully updated.
 
 # Not a target:
-src/search.c:
+src/*.c:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+valgrind:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+#  recipe to execute (from 'Makefile', line 47):
+	valgrind $(call FixPath,$(TEST_OUTPUT))
 
-# files hash-table stats:
-# Load=11/1024=1%, Rehash=0, Collisions=0/27=0%
+# fil 
+es hash-table stats:
+# Load=12/1024=1%, Rehash=0, Collisions=0/29=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 22 / storage = 191 B / avg = 8 B
-# current buf: size = 8162 B / used = 191 B / count = 22 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 24 / storage = 195 B / avg = 8 B
+# current buf: size = 8162 B / used = 195 B / count = 24 / avg = 8 B
 
-# strcache performance: lookups = 29 / hit rate = 24%
+# strcache performance: lookups = 41 / hit rate = 41%
 # hash-table stats:
-# Load=22/8192=0%, Rehash=0, Collisions=1/29=3%
-# Finished Make data base on Tue Jul 13 07:33:05 2021
+# Load=24/8192=0%, Rehash=0, Collisions=1/41=2%
+# Finished Make data base on Tue Jul 13 09:33:28 2021
 
  
