@@ -1,7 +1,7 @@
 Cricket-Board-Management-System
-Build | Code Quality| [Git Inspector](using github.io option) | Code Coverage
-------|----------|---------------|--------|
-[![C/C++ CI - Build Status](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/c-cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/cppcheck.yml)|[![Contribution Check - Git Inspector](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/gitinspector.yml)| [![CI-Coverage](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/gcov.yml/badge.svg)](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/gcov.yml)
+Build | Code Quality|Unity |[Git Inspector](using github.io option) | Code Coverage
+------|----------|----|-----------|--------|
+[![C/C++ CI - Build Status](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/c-cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/cppcheck.yml)|[![Unit Testing - Unity](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/unity.yml/badge.svg)](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/unity.yml)|[![Contribution Check - Git Inspector](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/gitinspector.yml)| [![CI-Coverage](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/gcov.yml/badge.svg)](https://github.com/12345292/Cricket-Board-Management-System/actions/workflows/gcov.yml)
 
 
 
@@ -18,7 +18,7 @@ Folder             | Description
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`303569` | S Karan  |  5|     |  | |     
+`303569` | S Karan  |  5|  2   | 2 | 2|   2|2|  
 
 | Feature Id | Feature |
 | -----------|---------|
@@ -34,7 +34,7 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 |-----|-----------|--------
 |1. | Accessing the text files which was in different directory | Given full extension while opening the file
 |2. | Score was not being updated properly | Modified the logic of the program 
-|3. | Errror while running the code | some modificaton done in the code|
+|3. | Errror while building the code | some modificaton done in the code|
 |4. | Error while Building the makefile | Trial and Error and referred Mini Project Template
 
 ## Reference
