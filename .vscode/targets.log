@@ -8,7 +8,7 @@ make.exe: *** No rule to make target 'src/*.c', needed by 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jul 13 09:33:28 2021
+# Make data base, printed on Tue Jul 13 11:16:29 2021
 
 # Variables
 
@@ -67,7 +67,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-b9961578-4aeb-451b-a159-68665179e809-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-d0e4547a-558c-448a-ab1e-81969cb03742-sock
 # environment
 VSCODE_CWD = C:\Users\karan\AppData\Local\Programs\Microsoft VS Code
 # makefile (from 'Makefile', line 19)
@@ -101,7 +101,7 @@ ELECTRON_RUN_AS_NODE = 1
 # makefile (from 'Makefile', line 27)
 FixPath = $(subst /,\,$1)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13340_GACEBDMRROKOJLZG
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9128_ZASSJHIMCSILDFIE
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -227,7 +227,7 @@ PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 13340
+VSCODE_PID = 9128
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-TOLSUP5U
 # variable set hash-table stats:
@@ -328,8 +328,7 @@ valgrind:
 #  recipe to execute (from 'Makefile', line 47):
 	valgrind $(call FixPath,$(TEST_OUTPUT))
 
-# fil 
-es hash-table stats:
+# files hash-table stats:
 # Load=12/1024=1%, Rehash=0, Collisions=0/29=0%
 # VPATH Search Paths
 
@@ -343,6 +342,6 @@ es hash-table stats:
 # strcache performance: lookups = 41 / hit rate = 41%
 # hash-table stats:
 # Load=24/8192=0%, Rehash=0, Collisions=1/41=2%
-# Finished Make data base on Tue Jul 13 09:33:28 2021
+# Finished Make data base on Tue Jul 13 11:16:29 2021
 
  
