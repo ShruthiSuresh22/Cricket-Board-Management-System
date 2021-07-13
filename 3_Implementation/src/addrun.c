@@ -41,20 +41,31 @@ flag=1;
 }
 if(flag==0)
 {
-
- printf("\nInvalid ID");
- }else{
-   printf("\nPlayer's run added Successfully.");
- }
- fclose(fs);
+  fclose(fs);
 fclose(fp);
-char a,b;
-scanf("%c",&a);
-printf("\n Press Enter key to continue.\n");
- remove("Player_record.txt");
+remove("Player_record.txt");
 rename("temp.txt","Player_record.txt");
   remove("temp.txt");
+return 0;
+ //printf("\nInvalid ID");
+ }else{
+   fclose(fs);
+fclose(fp);
+remove("Player_record.txt");
+rename("temp.txt","Player_record.txt");
+  remove("temp.txt");
+   return 1;
+   //printf("\nPlayer's run added Successfully.");
+ }
+ //fclose(fs);
+//fclose(fp);
+//char a,b;
+//scanf("%c",&a);
+//printf("\n Press Enter key to continue.\n");
+ //remove("Player_record.txt");
+//rename("temp.txt","Player_record.txt");
+  //remove("temp.txt");
 //getch();
-scanf("%c",&b);
+//scanf("%c",&b);
 
 }

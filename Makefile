@@ -1,4 +1,4 @@
-SRC = mycode.c src/addrun.c src/search.c src/modify.c 
+SRC = main.c src/addrun.c src/search.c src/modify.c 
 INC = inc
 
 target : $(SRC) $(INC)

@@ -7,9 +7,8 @@ make.exe: *** No rule to make target 'all'.  Stop.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Mon Jul 12 14:26:32 2021
+# Make data base, printed on Tue Jul 13 07:33:05 2021
 
 # Variables
 
@@ -22,7 +21,7 @@ GNUMAKEFLAGS :=
 # default
 .SHELLFLAGS := -c
 # makefile (from 'Makefile', line 1)
-SRC = mycode.c src/addrun.c src/search.c src/modify.c 
+SRC = main.c src/addrun.c src/search.c src/modify.c 
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -64,7 +63,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-b98b9eec-e0d7-4c65-bfb9-a2cdaf330f90-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-b9961578-4aeb-451b-a159-68665179e809-sock
 # environment
 VSCODE_CWD = C:\Users\karan\AppData\Local\Programs\Microsoft VS Code
 # default
@@ -92,7 +91,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1328_XNUBANNERLJOXKCM
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13340_GACEBDMRROKOJLZG
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -208,7 +207,7 @@ PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 1328
+VSCODE_PID = 13340
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-TOLSUP5U
 # variable set hash-table stats:
@@ -220,7 +219,7 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-TOLSUP5U
 
 # Directories
 
-# . (key c:/Miniproject_1, mtime 1626005940): 12 files, no impossibilities.
+# . (key c:/Miniproject_1, mtime 1626141553): 12 files, no impossibilities.
 
 # 12 files, no impossibilities in 1 directories.
 
@@ -244,9 +243,15 @@ all:
 #  File has not been updated.
 
 # Not a target:
+main.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2021-07-08 15:10:42
+#  Last modified 2021-07-13 07:31:41
 #  File has been updated.
 #  Successfully updated.
 
@@ -263,13 +268,7 @@ run: target
 #  recipe to execute (from 'Makefile', line 8):
 	./output.exe
 
-# Not a target:
-mycode.c:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-target: mycode.c src/addrun.c src/search.c src/modify.c inc
+target: main.c src/addrun.c src/search.c src/modify.c inc
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -302,12 +301,12 @@ src/search.c:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 21 / storage = 184 B / avg = 8 B
-# current buf: size = 8162 B / used = 184 B / count = 21 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 191 B / avg = 8 B
+# current buf: size = 8162 B / used = 191 B / count = 22 / avg = 8 B
 
-# strcache performance: lookups = 29 / hit rate = 27%
+# strcache performance: lookups = 29 / hit rate = 24%
 # hash-table stats:
-# Load=21/8192=0%, Rehash=0, Collisions=1/29=3%
-# Finished Make data base on Mon Jul 12 14:26:32 2021
+# Load=22/8192=0%, Rehash=0, Collisions=1/29=3%
+# Finished Make data base on Tue Jul 13 07:33:05 2021
 
  
