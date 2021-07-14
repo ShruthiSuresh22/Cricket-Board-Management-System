@@ -1,5 +1,5 @@
 /**
- * @file main.c
+ * @file mycode.c
  * @author your name (you@domain.com)
  * @brief 
  * @version 0.1
@@ -77,44 +77,10 @@ char c;
 //c=getche();
 switch(c)
 {
-case '1':{if (add_new_player()== 1)
-{
-     printf("\nRecord Saved Succesfully\n ");
-     char a,b;
-scanf("%c",&a);
-printf("\nPress Enter key to continue\n");
-//getch();
-scanf("%c",&b);
-}else{
-printf("\nRecord Not  Saved\n ");
-     char a,b;
-scanf("%c",&a);
-printf("\nPress Enter key to continue\n");
-//getch();
-scanf("%c",&b);
-
-}
+case '1':add_new_player();
 break;
-}
-case '2':{
-     if(add_run()== 1){
-          printf("Run Updated Succesfully");
-     char a,b;
-scanf("%c",&a);
-printf("\nPress Enter key to continue.");
-//getch();
-scanf("%c",&b);
-}else{
-     
-printf("Enter a valid id");
-char a,b;
-scanf("%c",&a);
-printf("\nPress Enter key to continue.");
-//getch();
-scanf("%c",&b);
-}
+case '2':add_run();
 break;
-}
 case '3':modify_modify();
 break;
 case '4':search_by_ID();
@@ -201,18 +167,16 @@ char t;
 if(choice=='Y' || choice=='y')
 {
 fwrite(&r,sizeof(r),1,fp);
+printf("\nRecord Saved Succesfully\n ");
+}
+else
+printf("\nRecord not saved\n");
 fclose(fp);
-return 1;
-//printf("\nRecord Saved Succesfully\n ");
-}
-else{
-     fclose(fp);
-     return 0;
-}
-
-//printf("\nRecord not saved\n");
-
-
+char a,b;
+scanf("%c",&a);
+printf("\nPress Enter key to continue\n");
+//getch();
+scanf("%c",&b);
 }
 
 int see_all_IDs()
