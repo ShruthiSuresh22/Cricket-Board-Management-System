@@ -37,6 +37,12 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 |3. | Errror while building the code | some modificaton done in the code|
 |4. | Error while Building the makefile | Trial and Error and referred Mini Project Template
 
+## How to run
+
+* gcc mycode.c src/addrun.c src/search.c src/modify.c  -Iinc -o output.exe <br>
+  ./output.exe or (make run)
+* (Note: here mycode.c is the main file)
+
 ## Reference
 The above code was already did during my college project but in a simple manner now its build with some extra features. My contributions to the code have been mentioned above and errors in the original code have been rectified.   
 
